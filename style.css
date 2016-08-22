@@ -1,0 +1,234 @@
+/* Price Table CSS codes */
+
+.pricecontainer {
+margin: 80px auto;
+font: 16px Helvetica;
+ }
+.echo, .elliot {
+  float: left;
+  width: 250px;
+  background:#B0C4DE;
+  text-align: center;
+}
+.echo h1, .elliot h1 {
+  margin: 20px 0 10px 0;
+  font-size: 1.25em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.echo h2, .elliot h2 {
+  font-size: .75em;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.echo p, .elliot p {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 10px 0;
+  font-weight: 100;
+  font-size: 0.75em;
+}
+.echo span, .elliot span {
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 125px;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.echo:hover, .elliot:hover{
+  background:#DEDFE7;
+  font-size: 1.1em;
+  font-weight: 100;
+  
+       
+}
+
+.walter {
+  float: left;
+  width: 250px;
+  background:#003366;
+  text-align: center;
+}
+.walter h1 {
+  margin: 20px 0 10px 0;
+  font-size: 1.25em;
+  color: white;
+}
+.walter h2 {
+  font-size: .75em;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.walter p {
+  color: white;
+  margin: 10px 0;
+  font-weight: 100;
+  font-size: 0.75em;
+}
+.walter span {
+  color: white;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 125px;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.walter .price {
+  background: white;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.walter:hover{
+background:#009933;
+  font-size: 1.1em;
+  font-weight: 100;
+    
+}
+
+.anakin {
+  float: left;
+  position: relative;
+  width: 250px;
+  background: #3498db;
+  text-align: center;
+  border-radius: 5px;
+}
+.anakin .price {
+  background: white;
+  color: rgba(0, 0, 0, 0.7);
+}
+.anakin h2 {
+  color: white;
+  font-size: .75em;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.anakin h1 {
+  margin: 20px 0 10px 0;
+  font-size: 1.25em;
+  color: white;
+}
+.anakin p {
+  color: white;
+  margin: 10px 0;
+  font-weight: 100;
+  font-size: .75em;
+}
+.anakin span {
+  color: white;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 125px;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.anakin:hover{
+background:#009933;
+font-size: 1.1em;
+font-weight: 100;
+}
+
+
+
+.price {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  line-height: 100px;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 100;
+  margin: 20px auto;
+}
+
+/*** changing right now ***/
+/**.price:hover{
+ background-color: #ffffff; 
+  color: #999;
+}  **/
+
+pbutton {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 35px;
+  border-bottom: 5px solid #c0392b;
+  background: #e74c3c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.10em;
+  font-weight: 100;
+  transition: all ease-in-out .2s;
+  padding-top: 6px;
+}
+
+pbutton hover {
+  background: #c0392b;
+}
+
+/* Start of Media Queries */
+
+/* #### Desktops #### */
+@media screen and (min-width: 1025px){
+  
+  .pricecontainer {
+max-width: 1024px;
+    
+
+ }
+  
+.anakin {
+top: -50px;
+padding: 50px 0;
+    
+  }
+  
+}
+
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .pricecontainer {
+      max-width: 550px;
+      margin-left: 15%;
+      
+ }
+  
+ 
+  
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (max-device-width: 760px){
+  .pricecontainer {
+   
+   
+   
+  
+ }
+
+ 
+}
+  
+
+}
+  
+  
+
+/* End of Price Table CSS codes */
